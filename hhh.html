@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> 
+
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    .nav-pills{
+      color:red;
+    }
+    .modal-header ul{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .tab-content{
+      margin-top: 5%;
+    }
+    .tab-content label,
+    .remember-me,
+    .forgot-link{
+      color: #9ba8c0;
+      
+    }
+    .form-footer{
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .form-group{
+      margin: 5%;
+    }
+    .form-group input{
+      height: 40px;
+      width: 95%;
+    }
+    .login-option {
+      margin-top:5% ;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .login-option p {
+     border: 1px solid rgb(210, 207, 207);
+     padding: 10px 40px;
+    }
+    .login-option p:hover{
+      background-color: #e1e3e7;
+      cursor: pointer;
+    }
+   .btn-login{
+    background-color: white;
+    color: #3178f2;
+    border: 1px solid #3178f2;
+   }
+   .btn-login:hover{
+    background-color: #3178f2;
+    color:white;
+    border: 1px solid #3178f2;
+   }
+
+  </style>
+</head>
+<body>
+
+
+
+<button class="btn btn-success" data-toggle="modal" data-target="#usermodal">click</button>
+
+<div class="modal" id="usermodal" role="dialog" >
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <span class="close" data-dismiss="modal" title="close">&times;</span>
+        <div class="modal-form">
+          <div class="modal-form-part">
+
+            <div class="modal-header">
+              <ul class="nav nav-pills" role="tablist">
+                
+                <li class="nav-item login">
+                  <a class="nav-link activ" data-toggle="tab" id="register-tab" data-target="#register" aria-selected="true">Sign In</a>
+
+                </li>
+                <li class="nav-item reg">
+                  <a class="nav-link " data-toggle="tab" id="register-tab" data-target="#register" aria-selected="false">Register</a>
+
+                </li>
+              </ul><!--endof nav-pills-->
+            </div><!--end of modal-header-->
+
+            <div class="tab-content">
+              <div class="tab-pane show active" id="register" role="tabpanel" aria-labelledby="register-tab">
+                <form action="#">
+
+                  <div class="form-group">
+                    <label for="register-email"> Username or email address *</label>
+                  <input type="email" id="register-email" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="register-password"> Password *</label>
+                    <input type="password" id="register-password" class="form-control" required>
+                  </div>
+                  
+                  <div class="form-footer ">
+
+                    <button type="submit" class="btn btn-login">LOG IN</button>
+                    <div class="remember-me">
+                      <input type="checkbox" class="custom-control-input" id="remember-me">
+                      <lable for="remember-me" class="custom-control-lable">Remember Me</lable>
+                    </div>
+                    
+                    <a href="#" class="forgot-link">Forgot Your Password  ?</a>
+
+                  </div>
+                  
+                </form>
+                <hr> 
+                
+                <p class="text-center">Or Sign In With</p>
+                <div class="login-option ">
+
+                  <p class="facebook-login bg-red">
+                    <i class="fa-brands fa-facebook-f" style="color: #3178f2;"></i>
+                    <span >log in with facebook</span>
+                  </p>
+                  <p class="google-login">
+                    <i class="fa-brands fa-google" style="color: #f24e31;"></i>
+                    <span >log in with google</span>
+                  </p>
+
+                </div><!--end of login-option-->
+              </div><!--end of signin-tab-->
+
+
+              <!-- 88888888888888888888888 -->
+
+              <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                
+                <form action="#">
+                  <div class="form-group">
+                    <label for="register-name">Name*</label>
+                    <input type="text" id="register-name" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="register-email">Email address *</label>
+                    <input type="email" id="register-email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="register-phone">Phone Number *</label>
+                    <input type="text" id="register-phone" class="form-control" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="register-password"> Password *</label>
+                    <input type="password" id="register-password" class="form-control" required>
+                  </div>
+                  
+                  <div class="form-footer">
+
+                    <button type="submit" class="btn btn-login">LOG IN</button>
+                    <div class="remember-me">
+                      <input type="checkbox" class="custom-control-input" id="remember-me">
+                      <lable for="remember-me" class="custom-control-lable">Remember Me</lable>
+                    </div>
+                    
+                    <a href="#" class="forgot-link">Forgot Your Password  ?</a>
+
+                  </div>
+                  
+                </form>
+                <hr> 
+                
+                <p class="text-center">Or Sign In With</p>
+                <div class="login-option ">
+
+                  <p class="facebook-login bg-red">
+                    <i class="fa-brands fa-facebook-f" style="color: #3178f2;"></i>
+                    <span >log in with facebook</span>
+                  </p>
+                  <p class="google-login">
+                    <i class="fa-brands fa-google" style="color: #f24e31;"></i>
+                    <span >log in with google</span>
+                  </p>
+
+                </div><!--end of login-option-->
+              </div><!--end of register tab-->
+            </div><!--end of tab-content-->
+          </div><!--end of modal-form-part-->
+        </div><!--end of modal-form-->
+    </div><!--end of modal body-->
+  </div><!--end of modal-content-->
+  </div><!--end ofmodal-dialog-centered-->
+</div><!--end of user modal-->
+
+
+
+
+</body>
+</html>
+
+

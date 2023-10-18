@@ -1,0 +1,149 @@
+.mainblog{
+    width: 90%;
+    margin: 1rem auto;
+
+}
+
+.blog{
+    width:35% ;
+    text-align: center;
+    float: left;
+}
+.blog3{
+    width:20%; 
+    float: right;
+}
+.footer{
+    clear: both;
+}
+.charachter{
+    width:100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.charimg{
+    width:28rem;
+    height: 20rem;
+    
+}
+.charcaption{
+    display: flex;
+    padding: 1rem 1rem;
+    color: rgb(166, 160, 160);
+}
+.charcaption p:hover{
+    cursor: pointer;
+    color: rgb(72, 108, 179);
+}
+.paragraph{
+    text-align: left;
+    color: rgb(166, 160, 160);
+    padding: 1rem;
+}
+.paragraphtitle{
+    font-size: larger;
+    color: rgb(33, 31, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.paragraphtitle:hover{
+    cursor: pointer;
+    color: rgb(72, 108, 179);
+}
+.paracontent1{
+    font-size: small;
+    padding: 0.5rem;
+}
+span:hover{
+    color:  rgb(72, 108, 179);
+    cursor: pointer;
+
+}
+.continue{
+    background-color: white;
+    border: none;
+    margin: 1rem auto;
+    color: rgb(72, 108, 179) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+}
+.continue:hover{
+    
+    cursor: pointer;
+    color:rgb(72, 108, 179) ;
+    border-bottom: 1px solid rgb(72, 108, 179);
+
+}
+.search{
+    width:80%;
+    height: 2.5rem;
+    margin: 1rem 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(212, 211, 211);
+}
+.category{
+    color: rgb(31, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    margin-bottom:4rem ;
+}
+.catp{
+    font-size: large;
+}
+.cat{
+    margin: 20px auto;
+    color: rgb(151, 147, 147);
+    display:flex;
+    justify-content: space-between;
+}
+.cat:hover{
+    cursor: pointer;
+    color:rgb(72, 108, 179);
+}
+
+
+.popular{
+    margin-bottom: 10px;
+    clear: both;
+
+}
+
+
+.popsection{
+    margin-bottom: 5rem ;
+    clear: both;
+   
+   
+}
+.popimg{
+    float: left;
+   
+}
+.popimg img{
+    width:5rem;
+    height: 5rem;
+}
+
+.popcaption{
+   float: right;
+   margin-top: 1rem;
+   margin-right: 1.5rem;
+  
+}
+.date{
+    color: rgb(179, 176, 176);
+}
+.disc:hover{
+    cursor: pointer;
+    color: rgb(51, 81, 117);
+}
+.banner{
+    text-align: center;
+   
+}
+
+.bannerph:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+

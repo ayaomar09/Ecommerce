@@ -1,0 +1,691 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!--Style-->
+    <link rel="stylesheet" href="/css1/bootstrap.css">
+    <link rel="stylesheet" href="/css1/bootstrap.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.css">
+    <link rel="stylesheet" href="/css1/all.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.min.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <section class="heading">
+            <header class="header">
+                <div class="header-top row ">
+                    <div class="header-left  ">
+                        <a href="home.html">
+                            <img class="logo" src="/images/logo/logo-footer.png">
+                        </a>
+                    </div>
+        
+                    <div class="header-middle">
+                        <div class="header-search header-search-extended header-search-visible"> 
+                            <form action="#" method="get">  
+                                <div class="header-search-wrapper search-wrapper-wide ">
+                                    <label for="search" class="sr-lable"></label>
+                                    <button class="btn " type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass "></i></button>
+                                    <input type="search" class="form-control" name="search" id="search" placeholder="Search product ..." required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div>     
+                    </div><!--end of middle header-->
+                    <div class="header-right" >
+                        <a title="Cart items" href="cart.html"><i class="fa-sharp fa-solid fa-cart-plus fa-xl"></i></a>
+                        <a title="Wish List" href="wishlist.html"><i class="fa-solid fa-heart-circle-plus fa-xl"></i></a>
+                        <a title="Your Account" href="account.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                    </div>
+                </div><!--End of header-top-->
+           </header><!---end of header-->
+            <section class="header-bottom text-center">
+    
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle h-100  dropbtn" type="button" data-toggle="dropdown"><i class="fa-solid fa-bars"></i> &nbsp;&nbsp;&nbsp;Browse Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <!-- <span class="caret"></span> -->
+                    </button>
+                    <ul class="dropdown-menu w-100">
+                        <li class="dropdown-header"><a href="#">Daily offers</a></li>
+                        <li class="dropdown-header"><a href="#">Gift Ideas</a></li>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Sofas & Sleeper sofas</a></li>
+                        <li><a href="#">Storage</a></li>
+                        <li><a href="#">Armchairs & Chaises</a></li>
+                        <li><a href="#">Decoration </a></li>
+                        <li><a href="#">Kitchen Cabinets</a></li>
+                        <li><a href="#">Coffee & Tables</a></li>
+                        <li><a href="#">Outdoor Furniture </a></li>
+    
+                    </ul><!---end of dropdown menu-->
+                </div><!--end of dropdown-->
+                <p class="mt-2">|</p>
+                <nav class="navbar "> 
+                    <ul class=" list-inline">
+                        <li class="list-inline-item active"><a  href="home.html">Home</a></li>
+                        <li class="list-inline-item"><a href="shop.html">Shop</a></li> 
+                        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><a href="blog.html">Blog</a></li> 
+                    </ul>
+                </nav>
+           </section><!--end of header-bottom-->
+        </section><!--end of heading-->
+
+    <div class="pagetstart">
+        <img src="/images/page-header-bg.jpg">
+        <p>SHOP</p>
+    </div><!--End of page start-->
+
+    <section class="shop-container row">
+        <aside class="left-shop col-3">
+            <section class="categories">
+                <form class="categoryform" action="checkout.html">
+
+                    <div class=" category">
+
+                    
+                        <p class="categoryp">
+                            <span class="category-name">Category</span>
+                            <span class="caret-down"><i class="fa-solid fa-angle-down"></i></span>
+                        </p>
+                        
+
+                        <div class="hidden-section">
+
+                    
+                            <div class="categoryorder ">
+
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required checked>
+                                    <label class="categorycheckbox">Cell Phones</label>
+                                </div>
+                                <p class="categoryval">20</p>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothcheckbox">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Laptop</label>
+                                </div>
+                                <p class="categoryval">15</p>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothcheckbox">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">TV</label>
+                                </div>
+                                <p class="categoryval">10</p>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothcheckbox">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Smart Watch</label>
+                                </div>
+                                <p class="categoryval">30</p>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothcheckbox">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Audio</label>
+                                </div>
+                                <p class="categoryval">20</p>
+                            </div>
+
+                        
+                        </div><!--end of hidden section-->
+                    </div><!--end of category-->
+
+                    <div class="category">
+                        <p class="categoryp">
+                            <span class="category-name">System</span>
+                            <span class="caret-down"><i class="fa-solid fa-angle-down"></i></span>
+                        </p>
+                        
+                        <div class="hidden-section">
+                                    
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required checked>
+                                    <label class="categorycheckbox">IOS</label>
+                                </div>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Android</label>
+                                </div>
+                            </div>
+            
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Windows</label>
+                                </div>
+                            </div>
+    
+                        </div> <!--end of hidden section-->      
+                                    
+                    </div><!--end of category-->
+
+
+                    <div class="category">
+                        <p class="categoryp">
+                            <span class="category-name">Brand</span>
+                            <span class="caret-down"><i class="fa-solid fa-angle-down"></i></span>
+                        </p>
+                        
+                        <div class="hidden-section">
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required checked>
+                                    <label class="categorycheckbox">Apple</label>
+                                </div>
+                            </div>
+
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Samsung</label>
+                                </div>
+                            </div>
+            
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Oppo</label>
+                                </div>
+                            </div>
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">HP</label>
+                                </div>
+                            </div>
+                            <div class="categoryorder">
+                                <div class="bothradio">
+                                    <input type="checkbox" name="category"  class="categoryradinp" required>
+                                    <label class="categorycheckbox">Dell</label>
+                                </div>
+                            </div>
+
+                                 
+                        </div> <!--end of hidden section-->   
+                    </div><!--end of category-->
+
+                    <div class="category">
+
+                        <label for="price-range">Price Range:</label>
+                        <input type="range" id="price-range" name="price-range" min="20" max="7000" value="20" step="1">
+
+                        <p>from <span id="selected-price">$20</span> to <span id="selected-price">$7000</span></p>   
+                    </div><!--end of category-->
+                </form><!--end of cartform--> 
+                <img src="/images/demos/demo-13/banners/banner-6.jpg">
+            </section><!--end of categories"-->
+        </aside><!--end of left-shop-->
+
+        
+        <section class="shop-body col-9">
+            <section class="slider">
+                <div class="carousel slide" id="myslider" data-ride="carousel" data-interval="4000">
+                    <ul class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#myslider" class="indicator active w-5"></li>
+                        <li data-slide-to="1" data-target="#myslider" class="indicator h-10"></li> 
+                        <li data-slide-to="2" data-target="#myslider" ></li>
+                        <li data-slide-to="3" data-target="#myslider" ></li> 
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/demos/demo-13/banners/banner-8.jpg">
+                            <div class="carousel-caption   mb-5   text-left">
+                                <p class="caption__note">Weekend Deal</p>
+                                <p class="caption__bold">Apple & Accessories</p>
+                                <button class="btn shop__more"type="submit" href="./shop.html">Shop More &RightArrow;</button>
+                           </div>
+                        </div>
+     
+                        <div class="carousel-item ">
+                            <img src="/images/demos/demo-13/banners/banner-7.jpg">
+                            <div class="carousel-caption  mb-5    text-right">
+                                <p class="caption__note">Deals and promotions</p>
+                                <p class="caption__bold">Beats by Dre studio 3</p>
+
+                                <button class=" btn shop__more"type="submit" href="./shop.html">Shop More &RightArrow;</button>
+                           </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <img src="/images/demos/demo-13/banners/banner-4.jpg">
+                            <div class="carousel-caption  mb-5    text-left">
+                                <p class="caption__note">Deals and promotions</p>
+                                <p class="caption__bold">Beats by Dre studio 3</p>
+                               
+                                <button class="btn shop__more"type="submit" href="./shop.html">Shop More &RightArrow;</button>
+                           </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="/images/demos/demo-13/banners/slide-1.png">
+                            <div class="carousel-caption mb-5  text-left">
+                                <p class="caption__note">Deals and promotions</p>
+                                <p class="caption__bold">Beats by Dre studio 3</p>
+                        
+                                <button class="btn shop__more"type="submit" href="./shop.html">Shop More &RightArrow;</button>
+                           </div>
+                        </div>
+     
+                        <a href="#" class="carousel-control-prev" data-slide="prev" data-target="#myslider" >
+                            <i class="fa-solid fa-chevron-left fa-2x"></i>
+                        </a>
+                        <a href="#" class="carousel-control-next" data-slide="next" data-target="#myslider" >
+                            <i class="fa-solid fa-chevron-right fa-2x"></i>
+                        </a>
+                    </div><!--end odf carousel-inner-->   
+                </div><!--end odf carousel-->   
+            </section><!--end of slider-->
+
+            <section class="brands text-center">
+                <img src="/images/brands/1.png">
+               <img src="/images/brands/2.png">
+                <img src="/images/brands/3.png">
+                <img src="/images/brands/4.png">
+                <img src="/images/brands/5.png">  
+            </section><!--end of brands-->
+
+            <!--*****************************************Products********************************************-->
+
+            <section class="product-shop text-center  mt-5">
+                <div class=" text-center product-shop-gp1 row mt-5">
+                    <div class="product" >
+                        <div class="product-media" id="product-10">
+                            <img src="/images/product/product-1.jpg">
+                            <p class="sale note">Sale</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Laptops</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                    <div class="product" >
+                        <div class="product-media" id="product-11">
+                            <img src="/images/product/product-11.jpg">
+                            <p class="new note">New</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Camera</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+
+                    <div class="product" >
+                        <div class="product-media" id="product-12">
+                            <img src="/images/product/product-12.jpg">
+                            <p class="top note">Top</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon "><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data text-left ml-2 mt-4">
+                            <p class="product-category text-left">smartwatches</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                </div><!--end of product-shop-gp1-->
+                
+                <div class="product-shop-gp2 row mt-5">
+                    <div class="product" >
+                        <div class="product-media" id="product-9">
+                            <img src="/images/product/product-9.jpg">
+                            <p class="top note">Top</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Televisions</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                    <div class="product" >
+                        <div class="product-media" id="product-10">
+                            <img src="/images/product/product-10.jpg">
+                            <p class="sale note">Sale</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon "><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Accessories</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                    <div class="product" >
+                        <div class="product-media" id="product-11">
+                            <img src="/images/product/product-2.jpg">
+                            <p class="new note">New</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Audio</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                </div><!--end of product-shopgp2--->
+
+                <div class="product-shop-gp2 row mt-5">
+                    <div class="product" >
+                        <div class="product-media" id="product-9">
+                            <img src="/images/product/product-3.jpg">
+                            <p class="top note">Top</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">smartphones</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                    <div class="product" >
+                        <div class="product-media" id="product-10">
+                            <img src="/images/product/product-4.jpg">
+                            <p class="sale note">Sale</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon "><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">smartphones</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                    <div class="product" >
+                        <div class="product-media" id="product-11">
+                            <img src="/images/product/product-13.jpg">
+                            <p class="new note">New</p>
+                            <p class="wishlist-add"><i title="Add To Wish List" class="fa-solid fa-heart fa-1.5x text-center"></i></p>
+                            <div class="product-action  row">
+                                <p class="cart-icon action-icon"><i  title="add to cart" class="fa-solid fa-cart-plus fa-1.4x"></i><span class="icon-description ml-1">Add To Cart</span></p>
+                                <p class="separator">|</p>
+                                <p class="quick-view action-icon" ><i title="quick view" class="fa-solid fa-eye  fa-1.4x "></i><span class="icon-description ml-1">Quick View</span></p>
+                            </div>
+                        </div>
+                        <div class="product-data  text-left ml-2 mt-4">
+                            <p class="product-category text-left">Laptops</p>
+                            <p class="product-name">MacBook Pro 13 <br> Display ,i5</p>
+                            <p class="product-price yellow">$1,199</p>
+                            <p class="rate">
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <i class="fa-solid fa-star  fa-xs" style="color: #e19c3c;"></i>
+                                <span class="rate-num">(4 Review)</span>
+                            </p>
+                        </div> 
+                    </div><!-- end of  product div  -->
+                </div><!--end of product-shopgp2--->
+            </section><!--end of product-shop-->
+        </section><!--end of shop-body-->
+
+        
+
+    </section>
+
+
+
+
+    <section class="footer">
+        <section class="footer1">
+            <div class="info">
+                <div class="logo">
+                    <img src="images/logo-footer.png"/>
+                </div>
+                <div class="footercap">
+                    <p>
+                        Praesent dapibus, neque id cursus ucibus, <br>
+                        tortor neque egestas augue,<br>
+                        eu vulputate magna eros eu erat.
+                    </p>
+
+                </div>
+                <div class="phone">
+                    <div class="phoneicon">📞</div>
+                    <div class="phonenum">
+                        <p class="phonecap">Got Question? Call us 24/7</p>
+                        <p class="num">+20 1029188212</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="usefullinks">
+                <div class="footertitles">
+                    <p>Useful Links</p>
+                </div>
+                <ul class="footerlist">
+                    <li class="footeritem">About us</li>
+                    <li class="footeritem">Our Services</li>
+                    <li class="footeritem">How to shop </li>
+                    <li class="footeritem">FAQ</li>
+                    <li class="footeritem">Contact us</li>
+                </ul>
+                
+            </div>
+
+            <div class="customerservices">
+                <div class="footertitles">
+                    <p>Customer Services</p>
+                </div>
+                <ul class="footerlist">
+                    <li class="footeritem">Payment Methods</li>
+                    <li class="footeritem"> Money-back guarantee!</li>
+                    <li class="footeritem">Returns </li>
+                    <li class="footeritem">Shipping</li>
+                    <li class="footeritem"> Terms and conditions</li>
+                    <li class="footeritem"> Privacy Policy</li>
+                </ul>
+            
+            </div>
+
+            <div class="myaccount">
+                <div class="footertitles">
+                    <p>My Account</p>
+                </div>
+                <ul class="footerlist">
+                    <li class="footeritem"> Sign In</li>
+                    <li class="footeritem">View Cart</li>
+                    <li class="footeritem">My Wishlist</li>
+                    <li class="footeritem">Track My Order</li>
+                    <li class="footeritem"> Help</li>
+                </ul>   
+            </div>
+            
+            
+        </section><!--End of footer1-->
+
+        <section class="end">
+            <div class="copyright">
+                <p>Copyright &copy; 2022 Molla Store. All Rights Reserved.</p>
+            </div>
+            <div class="lastpic">
+              <img src="images/payments.png">
+            </div>
+        </section>
+
+
+
+    </section><!--End of footer--> 
+
+    </section><!--end of container-->
+    
+
+
+
+
+
+
+
+    <script src="/js1/jquery.min.js"></script>
+    <script src="/js1/popper.min.js"></script>
+    <script src="/js1/bootstrap.js"></script>
+    <script src="/js/script.js"></script>
+
+    <script>
+        //search
+
+
+// Get the search input element
+const searchInput = document.getElementById('search');
+
+// Add event listener for input changes
+searchInput.addEventListener('input', filterProducts);
+
+function filterProducts() {
+  // Get the entered search term
+  const searchTerm = searchInput.value.toLowerCase();
+
+  // Get all the product elements
+  const products = document.querySelectorAll('.product');
+
+  // Loop through each product element
+  products.forEach((product) => {
+    // Get the category name element inside the current product
+    const categoryName = product.querySelector('.product-category');
+
+    // Get the text content of the category name and convert it to lowercase
+    const categoryText = categoryName.textContent.toLowerCase();
+
+    // Check if the category name matches the search term
+    if (categoryText.includes(searchTerm)) {
+      // Display the product if it matches the search term
+      product.style.display = 'block';
+    } else {
+      // Hide the product if it doesn't match the search term
+      product.style.display = 'none';
+    }
+  });
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+
+
+.shop-container{
+    margin:5% 10%;
+}
+
+.categoryform{
+    width: 100%;
+    border-bottom: 1px solid rgb(230, 226, 226);
+}
+.category{
+    margin: 2rem auto;  
+    border-bottom: 0.2px solid rgb(225, 217, 217); 
+}
+.categoryp{
+    font-size: large;
+    font-family: Verdana;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.categoryp:hover{
+    cursor: pointer;
+    color:#4999e3;
+}
+.hidden-section{
+  display: none;
+}
+.show{
+  display: block;
+}
+.categoryorder{
+    display: flex;
+    justify-content:space-between;
+    margin: 1rem auto;
+  
+}
+
+.categoryp:hover {
+    cursor: pointer;
+} 
+
+
+.categoryval{
+    color: rgb(98, 92, 92);
+    background-color: rgb(237, 229, 229);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+
+.price-range{
+    color: rgb(165, 163, 163);
+    font-size:medium;
+    margin-left:1rem ;
+}
+span{
+    color: rgb(39, 80, 124);
+}
+.categories img{
+    width: 100%;
+}
+
+.slider{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.slider img{
+    width: 100%;
+    height: 300px;
+}
+
+.caption__note{
+    color: gray;   
+}
+.caption__bold{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+.caption__note:hover ,
+.caption__bold:hover{
+    color: #4999e3;
+    cursor: pointer;
+}
+.shop__more{
+    background-color: rgb(179, 176, 176);
+    color: white;
+    border: none;
+}
+.shop__more:hover{
+    background-color: white;
+    color: black;
+
+}
+.brands img{
+    margin: 30px 30px;
+  }
+.brands img:hover{
+   cursor: pointer;
+  }
+
+  .product{
+    width:25%;
+    height:15%;
+    border: 1px solid rgb(209, 203, 203) ;
+    padding: 5px;
+    margin: 2px 30px;
+  }
+  .product img{
+    width: 200px;
+  }
+  
+  .product-action{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px 2px;
+    position: relative;
+    bottom: 180px;
+    background-color: rgb(249, 246, 246);
+    height: 40px;
+    padding: 5px;
+    display: none;
+    
+  }
+  .product:hover .product-action{
+    display: flex;
+  }
+  .product-action p i:hover{
+    cursor: pointer;
+    color: #1775d2;
+  
+  }
+  
+  .product-category,.rate-num{
+    color: rgb(200, 196, 196);
+  
+  }
+  .product-category:hover{
+    color: rgb(94, 90, 90);
+  }
+  .product-name{
+    color: #283037;
+    font-size: larger;
+  
+  }
+  .product-name:hover{
+    color: #1b88e7;
+    cursor: pointer;
+   
+  
+  }
+  .product-price ,.yellow{
+    color:#df9311;
+    font-weight: bold;
+  }
+  .product:hover .product-data{
+    bottom: 100px;
+  }
+  .product-media{
+    height: 160px;
+    width: 100%;
+  }
+  .note{
+    margin: 25px;
+    position: relative;
+    bottom:200px;
+    width: 50px;
+  }
+  .new{
+  padding: 0.5rem;
+  border-radius: 50%; 
+  color: white;
+  background-color: #A6C76C;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .sale{
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    background-color: #EF837B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .top{
+      padding: 0.5rem;
+      border-radius: 50%;
+      color: white;
+      background-color: #7DD2EA;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+  .wishlist-add{
+    position: relative;
+    bottom:265px ;
+    left: 160px;
+    border: 1px solid rgb(17, 128, 224);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%; 
+    padding-top: 5px;
+    color: rgb(172, 167, 167);
+    display: none;
+  
+  }
+  .wishlist-add:hover i{
+    cursor: pointer;
+    color: rgb(17, 128, 224) ;
+  }
+  .product:hover .wishlist-add{
+    display: block;
+  }
+  .product-items{
+    display: flex;
+    margin-left:40px;
+    width: 100%;
+  }
+  .icon-description{
+    font-size:small;
+  }
+  .action-icon:hover .icon-description{
+    text-decoration: underline;
+    color: #1775d2 ;
+    cursor: pointer;
+  }
+  .icon-description:hover .action-icon i{
+    color: #1775d2 ;
+    cursor: pointer;
+  }
+  .product-media{
+    height: 160px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .product-data{
+    margin-top: 50PX;
+    padding-top: 10px;
+
+  }
+  .product-shop{
+    margin: 5px auto;
+  }

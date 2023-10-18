@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish list</title>
+     <!--CSS-->
+     <link rel="stylesheet" href="/css1/bootstrap.css">
+    <link rel="stylesheet" href="/css1/bootstrap.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.css">
+    <link rel="stylesheet" href="/css1/all.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.min.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/headerfooter.css">
+     <link rel="stylesheet" href="/css/wishlist.css" />
+</head>
+<body>
+    <section  class="container-fluid">
+        <section class="heading">
+            <header class="header">
+                <div class="header-top row ">
+                    <div class="header-left  ">
+                        <a href="home.html">
+                            <img class="logo" src="/images/logo/logo-footer.png">
+                        </a>
+                    </div>
+        
+                    <div class="header-middle">
+                        <div class="header-search header-search-extended header-search-visible"> 
+                            <form action="#" method="get">  
+                                <div class="header-search-wrapper search-wrapper-wide ">
+                                    <label for="search" class="sr-lable"></label>
+                                    <button class="btn " type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass "></i></button>
+                                    <input type="search" class="form-control" name="search" id="search" placeholder="Search product ..." required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div>     
+                    </div><!--end of middle header-->
+                    <div class="header-right" >
+                        <a title="Cart items" href="cart.html"><i class="fa-sharp fa-solid fa-cart-plus fa-xl"></i></a>
+                        <a title="Wish List" href="wishlist.html"><i class="fa-solid fa-heart-circle-plus fa-xl"></i></a>
+                        <a title="Your Account" href="account.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                    </div>
+                </div><!--End of header-top-->
+           </header><!---end of header-->
+            <section class="header-bottom text-center">
+    
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle h-100  dropbtn" type="button" data-toggle="dropdown"><i class="fa-solid fa-bars"></i> &nbsp;&nbsp;&nbsp;Browse Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <!-- <span class="caret"></span> -->
+                    </button>
+                    <ul class="dropdown-menu w-100">
+                        <li class="dropdown-header"><a href="#">Daily offers</a></li>
+                        <li class="dropdown-header"><a href="#">Gift Ideas</a></li>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Sofas & Sleeper sofas</a></li>
+                        <li><a href="#">Storage</a></li>
+                        <li><a href="#">Armchairs & Chaises</a></li>
+                        <li><a href="#">Decoration </a></li>
+                        <li><a href="#">Kitchen Cabinets</a></li>
+                        <li><a href="#">Coffee & Tables</a></li>
+                        <li><a href="#">Outdoor Furniture </a></li>
+    
+                    </ul><!---end of dropdown menu-->
+                </div><!--end of dropdown-->
+                <p class="mt-2">|</p>
+                <nav class="navbar "> 
+                    <ul class=" list-inline">
+                        <li class="list-inline-item active"><a  href="home.html">Home</a></li>
+                        <li class="list-inline-item"><a href="shop.html">Shop</a></li> 
+                        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><a href="blog.html">Blog</a></li> 
+                    </ul>
+                </nav>
+           </section><!--end of header-bottom-->
+        </section><!--end of heading-->
+
+
+        <div class="pagetstart">
+            <img src="/images/page-header-bg.jpg">
+            <p>Your Wish list</p>
+        </div><!--End of page start-->
+
+        <section class="cartbody">
+           <section class="products">
+                <table class="carttable">
+                    <thead class="carthead">
+                        <th class="productth">Product</th>
+                        <th>Price</th>
+                        <th>Stock status</th>
+                        <th></th>
+                        <th></th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td >
+                                <section class="product">
+                                    <div class="productpic">
+                                    <a href="#">  <img src="/images/product/product-1.jpg" width="100px"></a>
+
+                                    </div>
+                                    <!-- <a href="#"> -->
+                                        <p class="productname">
+                                            Mac Book 13Pro
+                                        </p>
+                                    <!-- </a> -->
+
+                                </section>
+                            </td>
+
+                            <td class="price">
+                                $1200
+                            </td>
+
+                            <td class="status in">In stock</td>
+
+                            <td >
+                                <div class="selec ">
+                                   <select name="opt" class="btn btn-select" id="opt">
+                                    <option selected disabled class="dis"> Select Option </option>
+                                    <option value="first" class="option">First Option</option>
+                                    <option value="second"  class="option" >Second Option</option>
+                                    <option value="third"  class="option">Third Option</option>
+                                   </select>
+                                </div>
+
+                            </td>
+                            <td class="remove"><span class="close" data-dismiss=".product-data">&times;</span></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <section class="product">
+                                    <div class="productpic">
+                                    <a href="#" ><img src="/images/product/product-3.jpg" width="100px"></a>
+
+                                    </div>
+                                    <!-- <a href="#"> -->
+                                        <p class="productname">
+                                            Apple-11 inch ipad
+                                            
+                                        </p>
+                                    <!-- </a> -->
+
+                                </section>
+                            </td>
+
+                            <td class="price">
+                                $700
+                            </td>
+
+                            <td class="status in">In stock</td>
+
+                            <td >
+                                <div class="add ">
+                                    <div class="addtocartbtn btn"> &#128722; &nbsp;Add To cart</div>
+                                </div>
+
+                            </td>
+                            <td class="remove"><span class="close" data-dismiss=".product-data">&times;</span></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <section class="product">
+                                    <div class="productpic">
+                                    <a href="#">  <img src="/images/product/product-7.jpg" width="100px"></a>
+
+                                    </div>
+                                    <!-- <a href="#"> -->
+                                        <p class="productname">
+                                            Mac Book 13Pro
+                                        </p>
+                                    <!-- </a> -->
+
+                                </section>
+                            </td>
+
+                            <td class="price">
+                                $1200
+                            </td>
+
+                            <td class="status out">Out Of Stock</td>
+
+                            <td >
+                                <div class="outbtn">
+                                    <div class="disbtn btn"> Out Of Stock</div>
+                                </div>
+
+                            </td>
+
+                            <td class="remove"><span class="close" data-dismiss=".product-data">&times;</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <div class="wishlist-share">
+                    <div class="social-icons mt-5 mb-2">
+                        <label class="social-label">Share on:</label>
+                        <a href="#" class="social-icon facebook" title="Facebook" ><i class="fa-brands fa-facebook-f fa-xl" ></i></a>
+                        <a href="#" class="social-icon twitter" title="Twitter" ><i class="fa-brands fa-twitter fa-xl" ></i></a>
+                        <a href="#" class="social-icon instagram" title="Instagram" ><i class="fa-brands fa-instagram fa-xl" ></i></a>
+                        <a href="#" class="social-icon youtube" title="Youtube" ><i class="fa-brands fa-youtube fa-xl" ></i></a>
+                        <a href="#" class="social-icon pinterest" title="Pinterest" ><i class="fa-brands fa-pinterest fa-xl" ></i></a>
+                    </div><!-- End .soial-icons -->
+                </div><!-- End .wishlist-share -->
+
+                
+            
+            </section><!--end of products-->
+
+
+           
+        </section><!--end of wishlist body-->
+
+
+        <section class="footer">
+            <section class="footer1">
+                <div class="info">
+                    <div class="logo">
+                        <img src="images/logo-footer.png"/>
+                    </div>
+                    <div class="footercap">
+                        <p>
+                            Praesent dapibus, neque id cursus ucibus, <br>
+                            tortor neque egestas augue,<br>
+                            eu vulputate magna eros eu erat.
+                        </p>
+
+                    </div>
+                    <div class="phone">
+                        <div class="phoneicon">📞</div>
+                        <div class="phonenum">
+                            <p class="phonecap">Got Question? Call us 24/7</p>
+                            <p class="num">+20 1029188212</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="usefullinks">
+                    <div class="footertitles">
+                        <p>Useful Links</p>
+                    </div>
+                    <ul class="footerlist">
+                        <li class="footeritem">About us</li>
+                        <li class="footeritem">Our Services</li>
+                        <li class="footeritem">How to shop </li>
+                        <li class="footeritem">FAQ</li>
+                        <li class="footeritem">Contact us</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="customerservices">
+                    <div class="footertitles">
+                        <p>Customer Services</p>
+                    </div>
+                    <ul class="footerlist">
+                        <li class="footeritem">Payment Methods</li>
+                        <li class="footeritem"> Money-back guarantee!</li>
+                        <li class="footeritem">Returns </li>
+                        <li class="footeritem">Shipping</li>
+                        <li class="footeritem"> Terms and conditions</li>
+                        <li class="footeritem"> Privacy Policy</li>
+                    </ul>
+                
+                </div>
+
+                <div class="myaccount">
+                    <div class="footertitles">
+                        <p>My Account</p>
+                    </div>
+                    <ul class="footerlist">
+                        <li class="footeritem"> Sign In</li>
+                        <li class="footeritem">View Cart</li>
+                        <li class="footeritem">My Wishlist</li>
+                        <li class="footeritem">Track My Order</li>
+                        <li class="footeritem"> Help</li>
+                    </ul>   
+                </div>
+                
+                
+            </section><!--End of footer1-->
+
+            <section class="end">
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 Molla Store. All Rights Reserved.</p>
+                </div>
+                <div class="lastpic">
+                  <img src="images/payments.png">
+                </div>
+            </section>
+
+
+
+        </section><!--End of footer--> 
+
+
+
+
+
+
+
+
+        
+    </section><!---End of  class="container-fluid"-->
+
+    
+</body>
+</html>

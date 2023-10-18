@@ -1,0 +1,184 @@
+.checkbody{
+    width: 80%;
+    margin: 1rem auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.billing{
+    float: left;
+    width: 65%;
+    margin: 0rem 1rem ;
+    color: gray;
+    font-size: small;
+}
+.order{
+   width: 29%;
+    float: left;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: #F5F6F9;
+}
+.orderp{
+    font-size: larger;
+    padding: 1rem;
+}
+table{
+    width: 100%;
+}
+
+th{
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: rgb(35, 33, 33);
+    border-bottom: 1px solid rgb(217, 211, 211);
+    font-weight: lighter;
+}
+td{
+    border-bottom: 1px solid rgb(217, 211, 211);
+    padding: 1rem 0rem;
+    color: gray;
+    font-size: small;
+}
+.productth{
+    padding-right: 10rem;
+}
+
+.subtotal{
+    padding: 2rem 0rem;
+    border-bottom: 1px solid rgb(217, 211, 211) ;
+}
+.subtotalp{
+    float: left;
+}
+.subtotalval{
+    float: right;
+}
+
+.shipping  {
+    color: rgb(123, 119, 119);
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    border-bottom: 1px solid rgb(217, 211, 211) ;
+    padding: 2rem 0rem;
+}
+.totalf{
+    display: flex;
+    justify-content: space-between;
+    color: #365572 ;
+    font-size: large;
+}
+.paymentform{
+    color: rgb(123, 119, 119);
+    font-size: small;
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+    /* display: block; */
+}
+.pay{
+    display: block;
+    margin: 1rem;
+}
+.paymentform img{
+    width: 80%;
+    margin: 1rem auto;
+  padding-left: 2rem;
+}
+
+.carttotalsubm{
+    border:1px solid  #365572;
+    color:  #365572;
+    background: none;
+    margin-top: 20px ;
+    padding: 5px 10px;
+    width: 90%;
+    height:20%;
+    font-size: large;
+}
+ .carttotalsubm:hover{
+    cursor: pointer;
+    background-color: #365572 ;
+    color: white;
+    font-size: 0;
+    
+} 
+.carttotalsubm:hover::after{
+    content: attr(data-hover);
+    font-size:large;
+
+
+}
+
+.carttotalsubmdiv{
+    text-align: center;
+    padding: 5%;
+}
+/* Billing */
+.billingp,.checklable{
+    margin-bottom: 1rem;
+    color: rgb(63, 60, 60);
+    font-size: large;
+
+}
+.namediv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin: 1rem; */
+}
+.namedivf,.namedivl{
+    width: 50%;
+
+}
+.inp{
+    height: 2.5rem;
+    margin: 0.5rem auto;
+    background-color: #F9F9F9;
+    /* border: none; */
+}
+
+.inp:active{
+    border: 1px solid #365572;
+}
+.inp:focus{
+    border: 1px solid  #365572;
+}
+
+.name,.city,.state,.zip,.phone{
+    width:95%;
+    
+}
+.comp,.country,.address,.email{
+    width: 98%;
+}
+.check{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    clear: both;
+    margin-top:10rem ;
+  
+}
+/* hr{
+    margin: 1rem auto;
+    width: 95%;
+    clear: both;
+} */

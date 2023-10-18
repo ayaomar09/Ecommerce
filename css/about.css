@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.pagetstart{ 
+    margin-bottom: 5%;
+}
+
+.whoweare{
+    text-align: center;
+    display: inline-block;
+    font-family: Verdana;
+}
+.whoweare1{
+    font-size: xx-large;
+    
+}
+
+.whoweare2{
+    width: 70%;
+    margin: 0rem auto;
+    color: gray;
+}
+.team{
+  
+    margin:5% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:60rem;
+    background-color: #F9F9F9;
+}
+.team h2{
+    padding-top: 10px;
+    color:#365572 ;
+}
+.teaminfo1,.teaminfo2{
+   
+    height:25rem;
+    text-align: center;
+    width: 90%;
+    justify-content: center;
+    margin: 10px auto;
+    padding-left: 8%;
+    clear: both;
+   
+}
+
+.employee{
+    width: 18%;
+    height:90%;
+    float: left;
+   margin:20px;
+}
+.emp{
+    width: 100%; 
+    height:80%;
+    background-position:center ;
+    background-size: 85%;
+    background-repeat: no-repeat; 
+    margin-bottom: 2rem;   
+}
+.emp .empimg{
+    height: 100%;
+    width: 100%;  
+    
+}
+.emp:hover .empimg{
+    opacity: 0.5;
+}
+
+.social{
+    position: relative;
+    bottom: 10rem;
+    display: none; 
+}
+.emp:hover .social{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20rem;
+    
+}
+
+.social-icon:hover{
+    cursor: pointer;
+    color: rgb(61, 103, 240);   
+}
+.instagram:hover{
+    color: red;
+}
+
+
+.emprule{
+    font-size: small;
+    color: rgb(133, 130, 130);
+
+}
+
+.startwork{
+    border: 1px solid #365572;
+    color: #365572;
+    width: 15rem;
+    margin: 10px 40%;
+    padding: 5px;
+    clear: both;
+}
+.startwork:hover{
+    cursor: pointer;
+    background-color:#365572;
+    color: white;
+}
+
+.brandnote{
+    width:40%;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.brandp1{
+   
+    font-size:x-large;
+}
+.brandp2{
+   margin: 1rem auto;
+    font-size:small;
+    color: grey;
+}
+.brandpics{
+    margin: 4rem auto;
+}
+.pic {
+    /* cursor: pointer; */
+    width: 5rem;
+    height: 2rem;
+    margin: 3rem;
+}
+.pic:hover{
+    cursor: pointer;
+}
+
+
+.brandpics1,.brandpics2{
+    width: 100%;
+    text-align:center;
+}
+
+
+footer{
+    clear: both;
+}

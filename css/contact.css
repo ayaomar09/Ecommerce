@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainwrapper{
+    width: 90%;
+    padding: 10px;
+    margin:10px auto;
+    
+}
+
+.pagetstart{ 
+    margin-bottom: 5%;
+}
+
+ .contactway{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 4rem auto; 
+    border: 1px solid white; 
+    height: 100%;  
+    clear: both;
+} 
+.way{
+    float: left;
+    padding-left: 10rem;
+
+}
+
+.waytitle{
+    margin: 1rem auto;
+}
+.ills,.num1{
+    color: gray;
+    font-size: small;
+}
+.phones{
+    display: flex;
+}
+
+.mail:hover{
+    cursor:pointer;
+}
+.soc{
+    display: flex;
+    justify-content: space-around;
+}
+.soc:hover{
+    cursor:pointer;
+}
+
+.contactus{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    clear: both;
+    margin-top:10rem;
+   
+}
+.contacyus p{
+    width: 50%;
+}
+.contitle{
+    font-size: larger;
+    font-weight: bold;
+    margin: 2rem auto;
+}
+.ills1{
+    color: rgb(187, 107, 67) ;
+}
+.ills2{
+    color: grey;
+    font-size: small;
+    margin: 1rem auto;
+}
+.contactformsection{
+    width: 40%;
+    background-color: rgb(232, 239, 245);
+    border: 1px solid  rgb(232, 239, 245);
+    margin: 5% auto;
+    border-radius: 5%;
+    
+}
+.contactform{  
+    width: 60%;
+    height: 100%;
+    margin: 10% auto;
+    
+
+}
+
+.sub{
+    clear: both;
+    
+}
+.sub input{
+    width: 100%;
+    height: 2.5rem;
+}
+.contactform input{
+    margin: 15px auto;
+    /* background-color:  rgb(247, 247, 247);  */
+    border: none;
+    border-radius: 5px;
+    height:40px;
+}
+.textarea{
+    width: 100%;
+    max-width: 100%;
+    max-height: 20rem; 
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    margin-top: 0.1rem;
+}
+
+.btn-submit{
+    
+    color:  #365572;
+    background-color:white;
+    border: 1px solid #365572;
+    padding: 10px 20px;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 20%;
+    
+
+}
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: #365572;
+    color: white;
+}
+
+.google-map {
+   
+    position: relative;
+     height: 30rem;
+     padding: 2rem;
+}
+
+.google-map iframe {
+    height:100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+   
+}
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 10rem;
+}

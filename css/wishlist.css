@@ -1,0 +1,181 @@
+.cartbody{
+   
+    width: 80%;
+    margin: 1rem auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.products{
+    width: 70%;
+    margin: 2rem auto;
+}
+
+table{
+    width: 100%;
+   
+}
+.product{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+ .productpic{
+    float: left;
+} 
+.productname:hover{
+    cursor: pointer;
+    color:  #365572;
+}
+
+th{
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(127, 121, 121);
+    border-bottom: 1px solid rgb(217, 211, 211);
+    font-weight: lighter;
+}
+td{
+    border-bottom: 1px solid rgb(234, 229, 229);
+}
+.qu{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+.productth{
+    padding-right: 15rem;
+}
+.in{
+    color:rgb(82, 206, 82);
+}
+.out{
+    color: rgb(216, 44, 84);
+}
+.remove{
+    color: rgb(187, 179, 179);
+    margin-left: 2rem;
+    padding: 2rem;
+
+}
+.remove:hover{
+    cursor: pointer;
+    color: rgb(39, 37, 37);
+}
+select{
+    appearance: none;
+    padding: 0.5rem 1rem;
+    color: #365572 ;
+    border: 1px solid #365572;
+    width: 100%;
+}
+.addtocartbtn,.btn-select{
+    border:  1px solid #365572;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  
+
+}
+select:hover{
+    cursor: pointer;
+    color:white;
+    background-color:  #365572;
+}
+select::before{
+    content: #9776; 
+}
+.option{
+    background-color:white;
+    color: rgb(14, 11, 8);
+}
+
+/* .option:hover{
+    cursor: pointer;
+    background-color:rgb(172, 126, 111);
+    color:white;
+    font-size: large;
+} */
+
+.addtocartbtn{
+    border:  1px solid  #365572;
+    padding: 0.5rem 1rem;
+    color: #365572 ;
+    width: 100%;
+}
+.addtocartbtn:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #365572;
+}
+.disbtn{
+    color: rgb(192, 189, 189);
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: small;
+    border: 1px solid   rgb(192, 189, 189);
+    width:100% ;
+}
+.social-label{
+    font-size: small;
+    color: gray;
+}
+.social-icon{
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-icon:hover{
+    cursor: pointer;
+}
+.facebook{
+    border: 1px solid  #2860ae;
+    color:  #2860ae;
+}
+.facebook:hover{
+    color: white;
+    background-color: #2860ae;
+
+}
+.twitter{
+    border: 1px solid  #67c7f4;
+    color:  #67c7f4;
+}
+.twitter:hover{
+    color: white;
+    background-color: #67c7f4;
+}
+.instagram {
+    border: 1px solid #df2626;
+    color: #df2626;
+
+}
+.instagram:hover{
+    color: white;
+    background-color:#df2626;
+
+}
+.youtube {
+    border: 1px solid #df2626;
+    color: #df2626;
+
+}
+.youtube:hover{
+    color: white;
+    background-color:#df2626;
+
+}
+.pinterest{
+    border: 1px solid  #bf3644;
+    color:  #bf3644;
+}
+.pinterest:hover{
+    color: white;
+    background-color:#bf3644;
+
+}
+
+/* modal */

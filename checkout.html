@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="/css1/bootstrap.css">
+    <link rel="stylesheet" href="/css1/bootstrap.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.css">
+    <link rel="stylesheet" href="/css1/all.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="/css1/fontawesome.min.css">
+    <link rel="stylesheet" href="/css1/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="/css/checkout.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <section class="heading">
+            <header class="header">
+                <div class="header-top row ">
+                    <div class="header-left  ">
+                        <a href="home.html">
+                            <img class="logo" src="/images/logo/logo-footer.png">
+                        </a>
+                    </div>
+        
+                    <div class="header-middle">
+                        <div class="header-search header-search-extended header-search-visible"> 
+                            <form action="#" method="get">  
+                                <div class="header-search-wrapper search-wrapper-wide ">
+                                    <label for="search" class="sr-lable"></label>
+                                    <button class="btn " type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass "></i></button>
+                                    <input type="search" class="form-control" name="search" id="search" placeholder="Search product ..." required>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div>     
+                    </div><!--end of middle header-->
+                    <div class="header-right" >
+                        <a title="Cart items" href="cart.html"><i class="fa-sharp fa-solid fa-cart-plus fa-xl"></i></a>
+                        <a title="Wish List" href="wishlist.html"><i class="fa-solid fa-heart-circle-plus fa-xl"></i></a>
+                        <a title="Your Account" href="account.html"><i class="fa-solid fa-user fa-2x"></i></a>
+                    </div>
+                </div><!--End of header-top-->
+           </header><!---end of header-->
+            <section class="header-bottom text-center">
+    
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle h-100  dropbtn" type="button" data-toggle="dropdown"><i class="fa-solid fa-bars"></i> &nbsp;&nbsp;&nbsp;Browse Categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <!-- <span class="caret"></span> -->
+                    </button>
+                    <ul class="dropdown-menu w-100">
+                        <li class="dropdown-header"><a href="#">Daily offers</a></li>
+                        <li class="dropdown-header"><a href="#">Gift Ideas</a></li>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Lighting</a></li>
+                        <li><a href="#">Sofas & Sleeper sofas</a></li>
+                        <li><a href="#">Storage</a></li>
+                        <li><a href="#">Armchairs & Chaises</a></li>
+                        <li><a href="#">Decoration </a></li>
+                        <li><a href="#">Kitchen Cabinets</a></li>
+                        <li><a href="#">Coffee & Tables</a></li>
+                        <li><a href="#">Outdoor Furniture </a></li>
+    
+                    </ul><!---end of dropdown menu-->
+                </div><!--end of dropdown-->
+                <p class="mt-2">|</p>
+                <nav class="navbar "> 
+                    <ul class=" list-inline">
+                        <li class="list-inline-item active"><a  href="home.html">Home</a></li>
+                        <li class="list-inline-item"><a href="shop.html">Shop</a></li> 
+                        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><a href="blog.html">Blog</a></li> 
+                    </ul>
+                </nav>
+           </section><!--end of header-bottom-->
+        </section><!--end of heading-->
+
+
+        <div class="pagetstart">
+            <img src="/images/page-header-bg.jpg">
+            <p>Checkout</p>
+        </div><!--End of page start-->
+
+        <section class="checkbody">
+            <form class="paymentform" action="product-sidebar.html">
+                <section class="billing">
+                   <p class="billingp">Billing Details</p>
+                    <div class="namediv">
+
+                       <div class="namedivf">
+                            <lable class="namelable">First Name*</lable><br>
+                            <input type="text" class="name inp form-control" name="fname" required>
+                        </div>
+
+                        <div class="namedivl">
+                            <lable class="namelable">Last Name*</lable><br>
+                            <input type="text" class="name inp  form-control" name="lname" required>
+                        </div>
+                    </div>
+                    <lable class="namelable">Company Name(optional)</lable><br>
+                    <input type="text" class="comp inp  form-control" name="company">
+
+                    <lable class="namelable">Country*</lable><br>
+                    <input type="text" class="country inp form-control" name="country" required>
+
+                    <lable class="namelable">Street address*</lable><br>
+                    <input type="text" class="address inp  form-control" name="address" placeholder="House number and street name" required><br>
+                    <input type="text" class="address inp  form-control" name="address" placeholder="Appartments ,suite ,unit etc...." required>
+                    
+                    <div class="namediv">
+
+                        <div class="namedivf">
+                            <lable class="namelable">Town/City*</lable><br>
+                            <input type="text" class="city inp  form-control" name="city" required>
+                        </div>
+ 
+                         <div class="namedivl">
+                            <lable class="namelable">State/Country*</lable><br>
+                            <input type="text" class="state inp  form-control" name="state" required>
+                         </div>
+                   </div>
+
+                    <div class="namediv">
+
+                        <div class="namedivf">
+                            <lable class="namelable">Post code/ZIP*</lable><br>
+                            <input type="text" class="zip inp  form-control" name="zip" required>
+                        </div>
+
+                        <div class="namedivl">
+                            <lable class="namelable">Phone*</lable><br>
+                            <input type="text" class="phone inp  form-control" name="phone" required>
+                        </div>
+                    </div>
+
+                    <lable class="namelable">Email*</lable><br>
+                    <input type="text" class="email inp  form-control" name="email" required>
+                    
+                    <div class="check">
+                        <input type="checkbox" name="check" class="checkbox custom-control-input">
+                        <lable class="checklable custom-control-lable">Create an account?</lable>
+                    </div>
+                   <br>
+                    <div class="check">
+                        <input type="checkbox" name="check" class="checkbox custom-control-input">
+                        <lable class="checklable custom-control-lable">Ship to a different address?</lable>
+                    </div>
+
+                    <!-- <textarea name="message" rows="20" cols="5">
+                        enter your msg
+                    </textarea> -->
+
+                
+                </section><!--end of Billing -->
+
+
+                <aside class="order">
+    
+                        
+                    <p class="orderp">
+                        Your Order
+
+                    </p>  
+                    
+                    <hr>
+
+                    <div class="producttotal">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="productth">Product</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> Mac Book 13Pro</td>
+                                    <td>$1200</td>
+                                </tr>
+                                <tr>
+                                    <td>Apple-11 inch ipad</td>
+                                    <td>$700</td>
+                                </tr>
+                            </tbody>
+
+                        </table><!--End of order table-->
+                    </div>
+
+                
+                    <div class="subtotal">
+                        <p class="subtotalp">Sub Total</p>
+                        <p class="subtotalval">$1900</p>
+                    </div>
+
+                    <section class="shipping">
+                        <p>Shipping :</p>
+                        <p>free shipping</p>
+                    </section>
+
+                    <div class="totalf">
+                        <p class="totalp"> Total</p>
+                        <p class="totalval">$1900</p>
+                    </div>   
+    
+                    <div class="payment"> 
+                        
+                        <div class="pay">
+                            <input type="radio" name="payment"  class="paymentradinp" required>
+                            <label class="paymentradio">Direct bank transfer</label>
+                        </div>    
+
+                        <div class="pay">
+                            <input type="radio" name="payment"  class="paymentradinp" required>
+                            <label class="paymentradio">Check payments</label>
+                        </div>
+
+                        <div class="pay">
+                            <input type="radio" name="payment"  class="paymentradinp" required>
+                            <label class="paymentradio">Cash on deleviry</label>
+                        </div>   
+
+                        <div class="pay">
+                            <input type="radio" name="payment"  class="paymentradinp" required>
+                            <label class="paymentradio">Paypal</label>
+                        </div>    
+
+                        <div class="pay">
+                            <input type="radio" name="payment"  class="paymentradinp" required>
+                            <label class="paymentradio">Credit Card (Stripe)</label>
+                        </div>
+
+                        <img src="/images/payments.png" >
+                            
+                        <div class="carttotalsubmdiv">
+                           <button class="carttotalsubm btn" type="submit" data-hover="Proceed To checkout">
+                            PLACE ORDER
+                            </button>
+                        </div>      
+
+                             
+                                
+                    </div><!--end of payment sec-->
+                </aside><!--end of order-->      
+            </form><!--end of payform-->
+        </section><!--end of check body-->
+
+
+
+        <section class="footer">
+            <section class="footer1">
+                <section class="info">
+                    <section class="logo">
+                        <img src="images/logo/logo.png"/>
+                    </section>
+                    <section class="footercap">
+                        <p>
+                            Praesent dapibus, neque id cursus ucibus, <br>
+                            tortor neque egestas augue,<br>
+                            eu vulputate magna eros eu erat.
+                        </p>
+
+                    </section>
+                    <section class="phone">
+                        <section class="phoneicon">📞</section>
+                        <section class="phonenum">
+                            <p class="phonecap">Got Question? Call us 24/7</p>
+                            <p class="num">+20 1029188212</p>
+                        </section>
+
+                    </section>
+
+                </section>
+
+                <section class="usefullinks">
+                    <section class="footertitles">
+                        <p>Useful Links</p>
+                    </section>
+                    <ul class="footerlist">
+                        <li class="footeritem">About us</li>
+                        <li class="footeritem">Our Services</li>
+                        <li class="footeritem">How to shop </li>
+                        <li class="footeritem">FAQ</li>
+                        <li class="footeritem">Contact us</li>
+                    </ul>
+                    
+                </section>
+
+                <section class="customerservices">
+                    <section class="footertitles">
+                        <p>Customer Services</p>
+                    </section>
+                    <ul class="footerlist">
+                        <li class="footeritem">Payment Methods</li>
+                        <li class="footeritem"> Money-back guarantee!</li>
+                        <li class="footeritem">Returns </li>
+                        <li class="footeritem">Shipping</li>
+                        <li class="footeritem"> Terms and conditions</li>
+                        <li class="footeritem"> Privacy Policy</li>
+                    </ul>
+                
+                </section>
+
+                <section class="myaccount">
+                    <section class="footertitles">
+                        <p>My Account</p>
+                    </section>
+                    <ul class="footerlist">
+                        <li class="footeritem"> Sign In</li>
+                        <li class="footeritem">View Cart</li>
+                        <li class="footeritem">My Wishlist</li>
+                        <li class="footeritem">Track My Order</li>
+                        <li class="footeritem"> Help</li>
+                    </ul>   
+                </section>
+                
+                
+            </section><!--End of footer1 -->
+            <section class="end">
+                <section class="copyright">
+                    <p>Copyright &copy; 2022 Molla Store. All Rights Reserved.</p>
+                </section>
+                <section class="lastpic">
+                  <img src="images/payments.png">
+                </section>
+            </section>
+
+
+
+        </section><!--End of footer-->
+    </section><!---End of container-fluid-->
+
+    
+</body>
+</html>
